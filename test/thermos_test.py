@@ -5,7 +5,6 @@ import thermos
 from thermos.models import User, Bookmark
 
 class ThermosTestCase(TestCase):
-
     def create_app(self):
         return thermos.create_app('test')
 
